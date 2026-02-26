@@ -9,7 +9,7 @@ At this stage, we provide:
 🔹 Results of Quantitative Comparison Experiments
 
 ### 📊 USIS10K
-| Method | Generation Model | mIou ↑ |	aAcc ↑ |	mAcc ↑ |	mDice ↑ |	mFscore ↑ |	mPrecision ↑ |	mRecall ↑ |
+| Method | Generation Model | mIou↑ |	aAcc↑ |	mAcc↑ |	mDice↑ |	mFscore↑ |	mPrecision↑ |	mRecall↑ |
 |:------:|:----------------:|:------:|:-------:|:-------:|:--------:|:---------:|:------------:|:----------:|
 |SegMAN|TIDE (CVPR2025)|73.81|**81.36**|**89.07**|84.83|84.83|81.23|**89.07**|
 |SegMAN|[WaterSegDiff (Ours)](https://drive.google.com/file/d/18swPtK8kcJ70HTUNzHlZ1JywZ6SKqiCM/view?usp=sharing)|**74.66**|77.78|86.45|**85.32**|**85.32**|**84.61**|86.45|
@@ -17,7 +17,7 @@ At this stage, we provide:
 |Mask2Former|[WaterSegDiff (Ours)](https://drive.google.com/file/d/1cIYERgSTdI0iI5w45WffpGFwlhGsH7uI/view?usp=sharing)|**72.82**|**88.86**|**86.69**|**84.23**|**84.23**|**83.33**|**86.69**|
 
 ### 📊 UIIS
-| Method | Generation Model | mIou ↑ |	aAcc ↑ |	mAcc ↑ |	mDice ↑ |	mFscore ↑ |	mPrecision ↑ |	mRecall ↑ |
+| Method | Generation Model | mIou↑ |	aAcc↑ |	mAcc↑ |	mDice↑ |	mFscore↑ |	mPrecision↑ |	mRecall↑ |
 |:------:|:----------------:|:------:|:-------:|:-------:|:--------:|:---------:|:------------:|:----------:|
 |SegMAN|TIDE (CVPR2025)|67.33|73.83|84.26|79.63|79.63|76.52|84.26|
 |SegMAN|[WaterSegDiff (Ours)](https://drive.google.com/file/d/1KuH0tm3Jt32vrUzHu_jZ8Y_Ve8JJUW8O/view?usp=sharing)|**71.65**|**74.17**|**88.85**|**83.35**|**83.35**|**79.17**|**88.85**|
