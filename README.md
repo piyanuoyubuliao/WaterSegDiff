@@ -10,14 +10,14 @@ At this stage, we provide:
 
 | Dataset | Method | Generation Model | mIou ↑ |	aAcc ↑ |	mAcc ↑ |	mDice ↑ |	mFscore ↑ |	mPrecision ↑ |	mRecall ↑ |
 |:-------:|:------:|:----------------:|:------:|:-------:|:-------:|:--------:|:---------:|:------------:|:----------:|
-|USIS10K|SegFormer|TIDE (CVPR2025)|73.81|**81.36**|**89.07**|84.83|84.83|81.23|**89.07**|
-|USIS10K|SegFormer|WaterSegDiff (Ours)|**74.66**|77.78|86.45|**85.32**|**85.32**|**84.61**|86.45|
+|USIS10K|SegMAN|TIDE (CVPR2025)|73.81|**81.36**|**89.07**|84.83|84.83|81.23|**89.07**|
+|USIS10K|SegMAN|[WaterSegDiff (Ours)](https://drive.google.com/file/d/18swPtK8kcJ70HTUNzHlZ1JywZ6SKqiCM/view?usp=sharing)|**74.66**|77.78|86.45|**85.32**|**85.32**|**84.61**|86.45|
 |USIS10K|Mask2Former|TIDE (CVPR2025)|71.17|87.76|85.26|83.09|83.09|82.40|85.26|
-|USIS10K|Mask2Former|WaterSegDiff (Ours)|**72.82**|**88.86**|**86.69**|**84.23**|**84.23**|**83.33**|**86.69**|
-|UIIS|SegFormer|TIDE (CVPR2025)|67.33|73.83|84.26|79.63|79.63|76.52|84.26|
-|UIIS|SegFormer|WaterSegDiff (Ours)|**71.65**|**74.17**|**88.85**|**83.35**|**83.35**|**79.17**|**88.85**|
+|USIS10K|Mask2Former|[WaterSegDiff (Ours)](https://drive.google.com/file/d/1cIYERgSTdI0iI5w45WffpGFwlhGsH7uI/view?usp=sharing)|**72.82**|**88.86**|**86.69**|**84.23**|**84.23**|**83.33**|**86.69**|
+|UIIS|SegMAN|TIDE (CVPR2025)|67.33|73.83|84.26|79.63|79.63|76.52|84.26|
+|UIIS|SegMAN|[WaterSegDiff (Ours)](https://drive.google.com/file/d/1KuH0tm3Jt32vrUzHu_jZ8Y_Ve8JJUW8O/view?usp=sharing)|**71.65**|**74.17**|**88.85**|**83.35**|**83.35**|**79.17**|**88.85**|
 |UIIS|Mask2Former|TIDE (CVPR2025)|61.13|89.63|79.47|73.10|73.10|70.03|79.47|
-|UIIS|Mask2Former|WaterSegDiff (Ours)|**69.43**|**93.15**|**89.62**|**81.26**|**81.26**|**76.11**|**89.62**|
+|UIIS|Mask2Former|[WaterSegDiff (Ours)](https://drive.google.com/file/d/1srpiqvO_m0jqL5T4f8y8pBjTw3uPl2uI/view?usp=sharing)|**69.43**|**93.15**|**89.62**|**81.26**|**81.26**|**76.11**|**89.62**|
 
 🔹 Example generated image–mask pairs
 
