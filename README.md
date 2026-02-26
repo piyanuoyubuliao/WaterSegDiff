@@ -26,6 +26,8 @@ At this stage, we provide:
 
 🔹 Example generated image–mask pairs
 
+[**WaterSegDiff Example pairs**](assets/WSDSample.zip)
+
 More materials will be continuously updated.
 
 ## 🌊 What WaterSegDiff Will Provide
