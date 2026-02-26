@@ -1,1 +1,56 @@
-# WaterSegDiff
+## Thank you for your interest in WaterSegDiff: A Dual Constraint-Controlled Diffusion Model for Synchronous Generation of Underwater Images and Semantic Masks.
+
+## 🚧 Full source code and complete dataset will be publicly released after the paper is officially accepted.
+
+## 📌 Current Status
+
+At this stage, we provide:
+
+🔹 Results of Quantitative Comparison Experiments
+
+| Dataset | Method | Generation Model | mIou ↑ |	aAcc ↑ |	mAcc ↑ |	mDice ↑ |	mFscore ↑ |	mPrecision ↑ |	mRecall ↑ |
+|:-------:|:------:|:----------------:|:------:|:-------:|:-------:|:--------:|:---------:|:------------:|:----------:|
+|USIS10K|SegFormer|TIDE (CVPR2025)|73.81|**81.36**|**89.07**|84.83|84.83|81.23|**89.07**|
+|USIS10K|SegFormer|WaterSegDiff (Ours)|**74.66**|77.78|86.45|**85.32**|**85.32**|**84.61**|86.45|
+|USIS10K|Mask2Former|TIDE (CVPR2025)|71.17|87.76|85.26|83.09|83.09|82.40|85.26|
+|USIS10K|Mask2Former|WaterSegDiff (Ours)|**72.82**|**88.86**|**86.69**|**84.23**|**84.23**|**83.33**|**86.69**|
+|UIIS|SegFormer|TIDE (CVPR2025)|67.33|73.83|84.26|79.63|79.63|76.52|84.26|
+|UIIS|SegFormer|WaterSegDiff (Ours)|**71.65**|**74.17**|**88.85**|**83.35**|**83.35**|**79.17**|**88.85**|
+|UIIS|Mask2Former|TIDE (CVPR2025)|61.13|89.63|79.47|73.10|73.10|70.03|79.47|
+|UIIS|Mask2Former|WaterSegDiff (Ours)|**69.43**|**93.15**|**89.62**|**81.26**|**81.26**|**76.11**|**89.62**|
+
+🔹 Example generated image–mask pairs
+
+More materials will be continuously updated.
+
+## 🌊 What WaterSegDiff Will Provide
+
+WaterSegDiff is designed to synchronously generate high-quality underwater image–semantic mask pairs under dual constraint control.
+
+After release, users will be able to:
+
+### 1️⃣ Generate Custom Image–Mask Pairs
+
+Use our diffusion framework to:
+
+🔹 Generate large-scale underwater image–mask pairs
+
+🔹 Control semantic structures during generation
+
+🔹 Train the model on your own underwater datasets
+
+### 2️⃣ Directly Use Our Pre-generated Dataset
+
+We will also provide:
+
+🔹 A large-scale synthetic underwater image–mask paired dataset
+
+🔹 Ready-to-use training format
+
+This allows researchers to directly train  models without additional generation steps.
+
+## 📬 Stay Tuned
+
+If you are interested in collaboration or early access, feel free to contact us.
+
+⭐ Please star this repository to stay updated with the official release!
