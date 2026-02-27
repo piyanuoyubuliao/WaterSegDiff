@@ -1,5 +1,31 @@
 ## Thank you for your interest in WaterSegDiff: A Dual Constraint-Controlled Diffusion Model for Synchronous Generation of Underwater Images and Semantic Masks.
 
+## 🔬 Paper Information
+
+This work has been submitted as a Regular Paper to IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).
+
+WaterSegDiff addresses a fundamental bottleneck in underwater semantic segmentation: the scarcity of high-quality, manually annotated underwater datasets.
+
+To tackle this issue, we propose a dual-controlled diffusion framework for the synchronous generation of high-fidelity underwater images and aligned semantic masks. The model is designed to maintain strong structural integrity and semantic consistency between generated image–mask pairs, which is critical for downstream perception tasks.
+
+## 🚀 Key Contributions
+
+🔹**Dual-Controlled Diffusion Framework**
+
+A deeply coupled architecture that ensures sub-pixel alignment between images and masks, mitigating semantic drift during generation.
+
+🔹**Structural Constraint via HED Priors**
+
+Incorporation of Holistically-Nested Edge Detection (HED) maps as structural guidance, overcoming the spatial limitations of text-only conditioning.
+
+🔹**Specialized Mask Adapter**
+
+A mask-aware refinement module bridging the gap between discrete semantic labels and continuous latent representations.
+
+🔹**Large-Scale Synthetic Dataset**
+
+We synthesized 24,957 high-quality underwater image–mask pairs. Experimental results on USIS10K and UIIS demonstrate significant segmentation improvements when training with our generated data.
+
 ## 🚧 Full source code and complete dataset will be publicly released after the paper is officially accepted.
 
 ## 📌 Current Status
